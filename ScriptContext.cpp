@@ -7,8 +7,8 @@
 
 DWORD ScriptContext;
 
-typedef DWORD(__thiscall* ScriptPogger)(int* yes, const char* name, DWORD arg)
-ScriptPogger r_grabScriptContext = (ScriptPogger)aslr(0x5CB0D0);
+typedef DWORD(__thiscall* ScriptPogger)(int* yes, const char* name, DWORD arg);
+ScriptPogger r_grabScriptContext = (ScriptPogger)aslr(0x5DF530); // Updated fro 06/01/2021
 
 void GetScriptContext()
 {
