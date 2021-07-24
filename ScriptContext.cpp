@@ -18,5 +18,7 @@ void GetScriptContext()
 
 /*
 to use this make sure to init "GetScriptContext", and use ScriptContext as your ScriptContext, makes a bit of sense that.
+
+This never returned a valid lua state. 
 */
 
